@@ -11,6 +11,7 @@ declare namespace ht {
     allowInvalid?: boolean;
     allowRemoveColumn?: boolean;
     allowRemoveRow?: boolean;
+    afterChange?: Function;
     autoColumnSize?: Object|boolean;
     autoComplete?: any[];
     autoRowSize?: Object|boolean;
